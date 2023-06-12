@@ -9,14 +9,14 @@ function ButtonPage() {
     return (
    <div>
         <div >
-            <Button primary outline rounded onClick={handleClick}>
+            <Button primary  rounded onClick={handleClick}>
                 <GoBell />
                 Click me!!
             </Button> 
             
         </div>
         <div >
-            <Button secondary outline className="mb-5">
+            <Button secondary  className="mb-5">
                 <GoCloudDownload />
                 Buy Now!!
             </Button> 
@@ -33,7 +33,7 @@ function ButtonPage() {
             </Button> 
         </div>
         <div >
-            <Button danger rounded outline onMouseLeave={handleClick}>Something!</Button> 
+            <Button danger rounded  onMouseLeave={handleClick}>Something!</Button> 
         </div>
    </div>
     )
